@@ -1,0 +1,202 @@
+2019-09-17 06:00:15,946 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication on orion with PID 44185 (/Users/arilson/projects/pratico/target/classes started by arilson in /Users/arilson/projects/pratico)
+2019-09-17 06:00:15,959 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 06:00:15,961 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-09-17 06:00:16,114 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-17 06:00:16,122 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-17 06:00:17,348 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-17 06:00:17,529 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 168ms. Found 1 repository interfaces.
+2019-09-17 06:00:19,133 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46005377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-17 06:00:20,667 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-09-17 06:00:20,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:00:20,723 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-09-17 06:00:20,724 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-17 06:00:20,909 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-09-17 06:00:20,910 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4787 ms
+2019-09-17 06:00:21,319 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-09-17 06:00:21,552 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-09-17 06:00:21,707 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-17 06:00:21,816 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-17 06:00:21,818 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
+2019-09-17 06:00:22,068 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-17 06:00:22,347 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-17 06:00:23,318 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7153b3c6'
+2019-09-17 06:00:23,323 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:00:23,424 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-09-17 06:00:24,679 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:00:25,206 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:00:25,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/pratico'
+2019-09-17 06:00:25,250 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 9.887 seconds (JVM running for 10.772)
+2019-09-17 06:00:26,976 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-17 06:00:26,977 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-09-17 06:00:26,993 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 16 ms
+2019-09-17 06:00:27,193 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-1] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:00:27,299 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-1] Finalizou ProdutoService.insert(..) Produto(id=1, nome=Pro duto 01, categoria=A)
+2019-09-17 06:00:28,245 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:00:28,257 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Finalizou ProdutoService.insert(..) Produto(id=2, nome=Pro duto 01, categoria=A)
+2019-09-17 06:01:18,383 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-8080-exec-4] Request method 'DELETE' not supported
+2019-09-17 06:01:18,389 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2019-09-17 06:01:22,395 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-8080-exec-5] Request method 'DELETE' not supported
+2019-09-17 06:01:22,406 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2019-09-17 06:01:36,114 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-8080-exec-6] Request method 'DELETE' not supported
+2019-09-17 06:01:36,115 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2019-09-17 06:02:19,098 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-09-17 06:02:27,338 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:02:27,341 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Finalizou ProdutoService.insert(..) Produto(id=3, nome=Pro duto 01, categoria=A)
+2019-09-17 06:03:11,893 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:03:11,905 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:03:11,906 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-8] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-17 06:03:11,934 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-8] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-09-17 06:03:11,935 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-1 - Shutdown initiated...
+2019-09-17 06:03:11,941 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-1 - Shutdown completed.
+2019-09-17 06:03:12,269 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication on orion with PID 44185 (/Users/arilson/projects/pratico/target/classes started by arilson in /Users/arilson/projects/pratico)
+2019-09-17 06:03:12,270 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 06:03:12,271 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-09-17 06:03:12,703 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-17 06:03:12,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 30ms. Found 1 repository interfaces.
+2019-09-17 06:03:12,836 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46005377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-17 06:03:13,056 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-09-17 06:03:13,058 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:03:13,059 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-09-17 06:03:13,062 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-17 06:03:13,076 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-09-17 06:03:13,078 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 804 ms
+2019-09-17 06:03:13,199 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2019-09-17 06:03:13,206 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2019-09-17 06:03:13,225 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-17 06:03:13,239 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-17 06:03:13,333 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7153b3c6'
+2019-09-17 06:03:13,334 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:03:13,385 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-09-17 06:03:13,723 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:03:13,967 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:03:13,973 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/pratico'
+2019-09-17 06:03:13,975 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.784 seconds (JVM running for 179.492)
+2019-09-17 06:03:13,983 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-09-17 06:03:18,901 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-17 06:03:18,902 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-09-17 06:03:18,915 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 12 ms
+2019-09-17 06:03:19,003 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [br.com.orion.pratico.exception.ResourceNotFoundException: Produto não encontrado. ID: 1]
+2019-09-17 06:03:21,624 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:03:21,631 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-2] Finalizou ProdutoService.insert(..) Produto(id=1, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:13,373 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-4] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:13,402 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-4] Finalizou ProdutoService.insert(..) Produto(id=2, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:14,283 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-5] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:14,287 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-5] Finalizou ProdutoService.insert(..) Produto(id=3, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:15,108 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-6] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:15,112 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-6] Finalizou ProdutoService.insert(..) Produto(id=4, nome=Pro duto 01, categoria=A)
+2019-09-17 06:05:28,905 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-09-17 06:05:32,722 WARN org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler [http-nio-8080-exec-2] Request method 'DELETE' not supported
+2019-09-17 06:05:32,733 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2019-09-17 06:10:41,995 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-2 housekeeper] HikariPool-2 - Retrograde clock change detected (housekeeper delta=28s641ms), soft-evicting connections from pool.
+2019-09-17 06:11:25,081 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-13] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:11:25,085 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-13] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:11:25,088 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-13] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-17 06:11:25,108 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-13] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-09-17 06:11:25,108 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-2 - Shutdown initiated...
+2019-09-17 06:11:25,113 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-2 - Shutdown completed.
+2019-09-17 06:11:25,842 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication on orion with PID 44185 (/Users/arilson/projects/pratico/target/classes started by arilson in /Users/arilson/projects/pratico)
+2019-09-17 06:11:25,843 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 06:11:25,844 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-09-17 06:11:26,429 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-17 06:11:26,464 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-09-17 06:11:26,560 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46005377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-17 06:11:26,855 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-09-17 06:11:26,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:11:26,862 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-09-17 06:11:26,863 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-17 06:11:26,899 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-09-17 06:11:26,901 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1051 ms
+2019-09-17 06:11:27,066 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2019-09-17 06:11:27,073 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2019-09-17 06:11:27,088 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-17 06:11:27,104 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-17 06:11:27,248 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7153b3c6'
+2019-09-17 06:11:27,250 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:11:27,314 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-09-17 06:11:27,769 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:11:28,058 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:11:28,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/pratico'
+2019-09-17 06:11:28,080 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 2.303 seconds (JVM running for 674.945)
+2019-09-17 06:11:28,084 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-09-17 06:12:18,866 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-20] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:12:18,870 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-20] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:12:18,871 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-20] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-17 06:12:18,881 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-20] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-09-17 06:12:18,882 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-3 - Shutdown initiated...
+2019-09-17 06:12:18,887 INFO com.zaxxer.hikari.HikariDataSource [Thread-20] HikariPool-3 - Shutdown completed.
+2019-09-17 06:12:19,778 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication on orion with PID 44185 (/Users/arilson/projects/pratico/target/classes started by arilson in /Users/arilson/projects/pratico)
+2019-09-17 06:12:19,779 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 06:12:19,780 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-09-17 06:12:20,730 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-17 06:12:20,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2019-09-17 06:12:20,856 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46005377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-17 06:12:21,111 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-09-17 06:12:21,115 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:12:21,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-09-17 06:12:21,119 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-17 06:12:21,135 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-09-17 06:12:21,136 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1354 ms
+2019-09-17 06:12:21,338 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2019-09-17 06:12:21,344 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2019-09-17 06:12:21,356 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-17 06:12:21,369 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-17 06:12:21,473 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7153b3c6'
+2019-09-17 06:12:21,475 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:12:21,519 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-09-17 06:12:21,933 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:12:22,140 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:12:22,145 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/pratico'
+2019-09-17 06:12:22,147 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 2.406 seconds (JVM running for 729.011)
+2019-09-17 06:12:22,151 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-09-17 06:12:37,649 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-26] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:12:37,652 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-26] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:12:37,653 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-26] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-17 06:12:37,670 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-26] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-09-17 06:12:37,670 INFO com.zaxxer.hikari.HikariDataSource [Thread-26] HikariPool-4 - Shutdown initiated...
+2019-09-17 06:12:37,672 INFO com.zaxxer.hikari.HikariDataSource [Thread-26] HikariPool-4 - Shutdown completed.
+2019-09-17 06:12:37,927 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication on orion with PID 44185 (/Users/arilson/projects/pratico/target/classes started by arilson in /Users/arilson/projects/pratico)
+2019-09-17 06:12:37,927 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 06:12:37,928 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-09-17 06:12:38,364 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-17 06:12:38,376 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2019-09-17 06:12:38,486 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46005377] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-17 06:12:38,856 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-09-17 06:12:38,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:12:38,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-09-17 06:12:38,862 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-17 06:12:38,893 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-09-17 06:12:38,893 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 961 ms
+2019-09-17 06:12:39,002 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2019-09-17 06:12:39,006 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2019-09-17 06:12:39,017 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-17 06:12:39,025 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-09-17 06:12:39,102 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7153b3c6'
+2019-09-17 06:12:39,103 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:12:39,136 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-09-17 06:12:39,455 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:12:39,638 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-17 06:12:39,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path '/pratico'
+2019-09-17 06:12:39,644 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 1.766 seconds (JVM running for 746.508)
+2019-09-17 06:12:39,648 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-09-17 06:12:44,422 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-17 06:12:44,425 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-09-17 06:12:44,436 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2019-09-17 06:12:44,475 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-1] Inicializou ProdutoService.insert(..) Produto(id=null, nome=Pro duto 01, categoria=A)
+2019-09-17 06:12:44,509 INFO br.com.orion.pratico.aspect.ServiceAspect [http-nio-8080-exec-1] Finalizou ProdutoService.insert(..) Produto(id=1, nome=Pro duto 01, categoria=A)
+2019-09-17 06:12:56,256 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [br.com.orion.pratico.exception.ResourceNotFoundException: Produto não encontrado. ID: 2]
+2019-09-17 06:13:16,115 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-37] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-17 06:13:16,123 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-37] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-17 06:13:16,125 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-37] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-09-17 06:13:16,133 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-37] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-09-17 06:13:16,134 INFO com.zaxxer.hikari.HikariDataSource [Thread-37] HikariPool-5 - Shutdown initiated...
+2019-09-17 06:13:16,138 INFO com.zaxxer.hikari.HikariDataSource [Thread-37] HikariPool-5 - Shutdown completed.
