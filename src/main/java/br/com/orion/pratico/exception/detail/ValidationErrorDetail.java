@@ -1,5 +1,6 @@
 package br.com.orion.pratico.exception.detail;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,6 +27,11 @@ public class ValidationErrorDetail extends ErrorDetail {
         
         public Builder message(String message) {
             validationErrorDetail.setMessage(message);
+            return this;
+        }
+
+        public Builder timestamp(LocalDateTime timestamp){
+            validationErrorDetail.setTimestamp(timestamp);
             return this;
         }
 

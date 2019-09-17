@@ -46,7 +46,8 @@ public class ProdutoService {
     }
 
     public void delete(Long id) {
-        produtoRepository.deleteById(id);
+        Produto deleteProduto = findById(id);
+        produtoRepository.deleteById(deleteProduto.getId());
     }
 
 

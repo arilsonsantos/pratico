@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -41,10 +42,12 @@ public class ApiResponseEntityExceptionHandle extends ResponseEntityExceptionHan
         ValidationErrorDetail errorDetail = ValidationErrorDetail.Builder.newBuilder()
         .statusCode(HttpStatus.NOT_FOUND.value())
         .message(exception.getMessage())
+        .timestamp(LocalDateTime.now())
         .errors(errors)
         .build();
         
         return new ResponseEntity<>(errorDetail, HttpStatus.NOT_FOUND);
     }
+    
     
 }

@@ -59,7 +59,7 @@ public class ProdutoController {
         return resposta(produto, HttpStatus.OK);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public ResponseEntity<?> insert(@PathVariable("id") Long id) {
         produtoService.delete(id);
         return resposta(null, HttpStatus.NO_CONTENT);
