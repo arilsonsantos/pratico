@@ -14,7 +14,7 @@ POST {{host}}
 Content-Type: application/json
 
 {
-    "nome":"Pro duto 02",
+    "nome":"Produto x",
     "categoria": "B"
 }
 
