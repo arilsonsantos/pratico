@@ -41,7 +41,7 @@ public class ApiResponseEntityExceptionHandle extends ResponseEntityExceptionHan
                 
         ValidationErrorDetail errorDetail = ValidationErrorDetail.Builder.newBuilder()
         .statusCode(HttpStatus.NOT_FOUND.value())
-        .message(exception.getMessage())
+        .message("Argumento(s) inválido(s)")
         .timestamp(LocalDateTime.now())
         .errors(errors)
         .build();
