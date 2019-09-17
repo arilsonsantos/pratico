@@ -1,0 +1,33 @@
+@host = http://localhost:8080/pratico/v1/produtos
+
+###
+
+{{host}}
+
+###
+
+{{host}}/2
+
+###
+
+POST {{host}}
+Content-Type: application/json
+
+{
+    "nome":"Pro duto 01",
+    "categoria": "A"
+}
+
+###
+
+PUT {{host}}
+Content-Type: application/json
+
+{
+    "id":"1",
+    "nome":"Pro duto 01",
+    "categoria": "C"
+}
+###
+
+DELETE {{host}}/5
