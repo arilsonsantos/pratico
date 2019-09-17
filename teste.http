@@ -14,7 +14,7 @@ POST {{host}}
 Content-Type: application/json
 
 {
-    "nome":"Produto x",
+    "nome":"Prox  xxxxx",
     "categoria": "B"
 }
 
@@ -30,4 +30,4 @@ Content-Type: application/json
 }
 ###
 
-DELETE {{host}}/1
+DELETE {{host}}/2
