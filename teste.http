@@ -14,7 +14,7 @@ POST {{host}}
 Content-Type: application/json
 
 {
-    "nome":"Prox  xxxxx",
+    "nome":"xxxx ccc",
     "categoria": "B"
 }
 

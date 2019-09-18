@@ -35,7 +35,7 @@ public class ProdutoController {
     public ResponseEntity<?> findAll() {
         List<Produto> produtos = produtoService.findAll();
         if (produtos.isEmpty()) {
-            return resposta(null, HttpStatus.NO_CONTENT);
+            return resposta(HttpStatus.NO_CONTENT);
         }
         return resposta(produtos, HttpStatus.OK);
     }
@@ -62,7 +62,11 @@ public class ProdutoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<?> insert(@PathVariable("id") Long id) {
         produtoService.delete(id);
-        return resposta(null, HttpStatus.NO_CONTENT);
+        return resposta(HttpStatus.NO_CONTENT);
+    }
+
+    private ResponseEntity<?> resposta(HttpStatus status) {
+        return resposta(null, status);
     }
 
     private ResponseEntity<?> resposta(Object object, HttpStatus status) {
