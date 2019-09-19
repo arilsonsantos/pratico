@@ -3,6 +3,7 @@ package br.com.orion.pratico.exception.detail;
 import java.time.LocalDateTime;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +16,7 @@ public class ErrorDetail {
 
     protected String message;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy hh:mm:ss")
+    @JsonFormat(shape = Shape.STRING, pattern = "dd/MM/yyyy hh:mm:ss")
     protected LocalDateTime timestamp;
     
     public static final class Builder {

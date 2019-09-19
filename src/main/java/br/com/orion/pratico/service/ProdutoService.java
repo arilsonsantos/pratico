@@ -38,6 +38,11 @@ public class ProdutoService {
     public Produto update(Produto produto) {
         Produto updateProduto = findById(produto.getId());
 
+        update(produto, updateProduto);
+        return produto;
+    }
+
+    private Produto update(Produto produto, Produto updateProduto) {
         updateProduto.setNome(produto.getNome());
         updateProduto.setCategoria(produto.getCategoria());
         produto = produtoRepository.save(updateProduto);
