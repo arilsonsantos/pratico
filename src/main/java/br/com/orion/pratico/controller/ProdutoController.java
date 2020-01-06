@@ -18,19 +18,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.orion.pratico.model.Produto;
 import br.com.orion.pratico.service.ProdutoService;
-import lombok.Setter;
+import lombok.RequiredArgsConstructor;
 
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("v1/produtos")
-public class ProdutoController {
+public class ProdutoController extends AbstractResponseController {
 
-    @Setter
-    private ProdutoService produtoService;
-   
-    public ProdutoController(ProdutoService produtoService) {
-        this.setProdutoService(produtoService);
-    }
-    
+    private final ProdutoService produtoService;
+        
     @GetMapping
     public ResponseEntity<?> findAll() {
         List<Produto> produtos = produtoService.findAll();
@@ -63,14 +59,6 @@ public class ProdutoController {
     public ResponseEntity<?> insert(@PathVariable("id") Long id) {
         produtoService.delete(id);
         return resposta(HttpStatus.NO_CONTENT);
-    }
-
-    private ResponseEntity<?> resposta(HttpStatus status) {
-        return resposta(null, status);
-    }
-
-    private ResponseEntity<?> resposta(Object object, HttpStatus status) {
-        return new ResponseEntity<>(object, status);
     }
    
 }

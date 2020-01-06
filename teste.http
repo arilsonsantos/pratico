@@ -1,4 +1,4 @@
-@host = http://localhost:8080/pratico/v1/produtos
+@host = http://localhost:8081/pratico/v1/produtos
 
 ###
 
@@ -14,8 +14,8 @@ POST {{host}}
 Content-Type: application/json
 
 {
-    "nome":"xxxx ccc",
-    "categoria": "B"
+    "nome":"Produto A",
+    "categoria": "d"
 }
 
 ###
