@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /pratico
+  port: 8081
+
+
+spring:
+  jpa:
+    open-in-view: true
+
